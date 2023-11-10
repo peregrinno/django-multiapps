@@ -11,6 +11,7 @@ class CoreLogoutView(TemplateView):
 class ChooseAppView(TemplateView):
     template_name = "choose_app.html"
 
+#Redirecionameto de rota
 class RedChamados(TemplateView):
     template_name = 'index_chamados.html'
 
